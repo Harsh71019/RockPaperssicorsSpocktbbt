@@ -45,6 +45,10 @@ h2 {
   margin-bottom: 20px;
 }
 
+.selected{
+  color: black !important;
+}
+
 .far {
   font-size: 50px;
   margin-right: 40px;
@@ -61,6 +65,11 @@ h2 {
 #computer .choice{
   color: #ff261e;
   cursor: pointer;
+}
+
+#player .far:last-of-type,
+#computer .far:last-of-type {
+  margin-right: 0;
 }
 
 .reset-icon {
